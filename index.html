@@ -13,20 +13,18 @@
       var s = screen.height;
       document.querySelector('body').style.height = (s-150)+"px";
       
-      new TradingView.widget({
-        "autosize": true,
-        "symbol": "FX_IDC:USDRUB",
-        "interval": "D",
-        "timezone": "exchange",
-        "theme": "Black",
-        "style": "1",
-        "toolbar_bg": "#f1f3f6",
-        "allow_symbol_change": true,
-        "hideideas": true,
-        "show_popup_button": true,
-        "popup_width": "1000",
-        "popup_height": "650"
-      });
+    new TradingView.widget({
+      "autosize": true,
+      "symbol": "FX_IDC:USDRUB",
+      "interval": "D",
+      "timezone": "exchange",
+      "theme": "Black",
+      "style": "1",
+      "toolbar_bg": "#f1f3f6",
+      "allow_symbol_change": true,
+      "hideideas": true
+    });
+
 
 
     })();
