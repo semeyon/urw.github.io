@@ -25,7 +25,8 @@
         "popup_height": "650"
       });
 
-      document.querySelector('body').style.height = (screen.height-150)+"px";
+      var s = screen.height >  screen.width ? screen.height : screen.width;
+      document.querySelector('body').style.height = (s-120)+"px";
 
     })();
     </script>
